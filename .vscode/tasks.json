@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "elm make",
+            "group": "build",
+            "command": "elm-make",
+            "args": [
+                "./main.elm"
+            ],
+            "type": "shell"
+        }
+    ]
+}
